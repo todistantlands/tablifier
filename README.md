@@ -41,9 +41,8 @@ This option should be sufficient for most users. Open the post or webpage you wi
 ```
 
 Instructions for accessing the HTML editor on major blogging platforms:
-
-	- [Editing HTML in Wordpress](https://wordpress.com/support/editors/#edit-html-in-the-word-press-editor)
-	- [Editing HTML in Blogger](https://support.google.com/blogger/thread/50045059/how-can-i-edit-as-html-in-the-new-blogger-interface?hl=en)
+- [Editing HTML in Wordpress](https://wordpress.com/support/editors/#edit-html-in-the-word-press-editor)
+- [Editing HTML in Blogger](https://support.google.com/blogger/thread/50045059/how-can-i-edit-as-html-in-the-new-blogger-interface?hl=en)
 	
 If using one of these editors, the safest place to import the script is at the very bottom of the post.
 
@@ -51,7 +50,7 @@ If using one of these editors, the safest place to import the script is at the v
 Users with file system access can upload their desired Tablifier version and insert it into pages or posts as needed using a `<script src>` tag. (Eg. `<script src="/tablifier-lite.js">`.)
 
 #### Site-Wide Import
-If your publishing environment lets you edit the site's HTML header or footer, inserting the script in one of those elements is a simple and convenient way to run it site-wide. This might cause some slight slowdown on text-heavy pages. This option is not recommended for use with Tablifier Plaintext, although unlikely to do any harm.
+If your publishing environment lets you edit the site's HTML header or footer, inserting the script in one of those elements is a simple and convenient way to run it site-wide. This might cause some slight slowdown loading text-heavy pages on less powerful devices. This option is not recommended for use with Tablifier Plaintext.
 
 ### Step 3: Mark Lists for Automation
 
@@ -64,8 +63,7 @@ Tablifier Lite can identify Tablifier lists by two methods:
 2. **Tablify tags:** You can nest each list you wish to automate in `<tablify>` tags. This option may be preferable for Markdown users who can't easily modify their content's class tags.
 
 #### Plaintext
-In addition to the options above, Tablifier Plaintext allows you to enclose your table in `<tablify>` tags *directly in the text editor* (eg. Blogger's composition interface). Essentially, it offers 
-the same functionality as Lite's "Tablify tags" method *even for users not using Markdown*. In your editor, that would look like this:
+In addition to the options above, Tablifier Plaintext allows you to enclose your table in `<tablify>` tags *directly in the text editor* (eg. Blogger's composition interface). Essentially, it offers the same functionality as Lite's "Tablify tags" method *even for users not using Markdown*. In your editor, that would look like this:
 
 ```
 <tablify>
