@@ -41,6 +41,7 @@ This option should be sufficient for most users. Open the post or webpage you wi
 ```
 
 Instructions for accessing the HTML editor on major blogging platforms:
+
 	- [Editing HTML in Wordpress](https://wordpress.com/support/editors/#edit-html-in-the-word-press-editor)
 	- [Editing HTML in Blogger](https://support.google.com/blogger/thread/50045059/how-can-i-edit-as-html-in-the-new-blogger-interface?hl=en)
 	
